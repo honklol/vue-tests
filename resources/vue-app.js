@@ -4,4 +4,4 @@ const app = new Vue({
         title: 'Among Us',
         message1: 'red kinda sus'
     }
-})
+});
