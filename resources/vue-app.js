@@ -2,6 +2,7 @@ const app = new Vue({
     el: '#app',
     data: {
         title: 'Among Us',
-        message1: 'red kinda sus'
+        message1: 'red kinda sus',
+        modifymsg: 'modify site settings'
     }
 });

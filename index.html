@@ -11,13 +11,14 @@
   </style> 
 </head>
 <body>
-  <div id="app">
+  <div id="app"><center>
     <h1>{{ title }}</h1>
     <h2>{{ message1 }}</p>
     <br><br><br><br><br><br>
-    <h3>modify site settings</h3>
+    <h3>{{ modifymsg }}</h3>
     <input type="text" v-model='title' placeholder="Among Us">
     <input type="text" v-model='message1' placeholder="red kinda sus">
-  </div>
+    <input type="text" v-model='modifymsg' placeholder="modify site settings">
+  </center></div>
 </body>
 </html>
