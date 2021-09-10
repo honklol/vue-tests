@@ -6,6 +6,12 @@
   <link href='resources/css/style.css' rel='stylesheet'>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
   <script src='resources/vue-app.js' defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+  </style> 
 </head>
 <body>
   <div id="app">
@@ -13,8 +19,8 @@
     <p>{{ message1 }}</p>
     <br><br>
     <h3>modify site settings</h3>
-    <input v-model='title' placeholder="Among Us">
-    <input v-model='message1' placeholder="red kinda sus">
+    <input type="text" v-model='title' placeholder="Among Us">
+    <input type="text" v-model='message1' placeholder="red kinda sus">
   </div>
 </body>
 </html>
